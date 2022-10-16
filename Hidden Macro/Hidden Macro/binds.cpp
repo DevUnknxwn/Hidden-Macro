@@ -10,7 +10,7 @@ void threads::binds()
 		if (GetAsyncKeyState(s.yKey1) & 1 && s.movementValues.y != 50) s.movementValues.y++;
 		if (GetAsyncKeyState(s.yKey2) & 1 && s.movementValues.y != 0) s.movementValues.y--;
 
-		if (GetAsyncKeyState(s.killProcKey)) exit(0);
+		if (GetAsyncKeyState(s.killProcKey)) { MessageBox(0, "Threads Killed.\nPress Ok To Close Macro.", "Closing Hidden Macro", MB_OK); exit(0); }
 
 		Sleep(1);
 	}
