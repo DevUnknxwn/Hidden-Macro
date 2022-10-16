@@ -1,5 +1,5 @@
 # Hidden-Macro
-Super Basic Recoil Macro I Made In Around 10 Mins That Runs In The Background With No Window.
+Super Basic Recoil Macro That Runs In The Background With No Window.
 
 Keybinds:
 
@@ -12,3 +12,7 @@ Keybinds:
    Up Arrow: More Control
    
    Down Arrow: Less Control
+
+   Right Arrow: Less Smooth
+   
+   Left Arrow: More Smooth  
